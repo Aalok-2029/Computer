@@ -39,22 +39,27 @@
             font-size: 14px;
         }
 
-        nav {
-            background-color: #003366;
-            text-align: center;
-            padding: 10px;
+        nav { 
+            background-color: #003366; 
+            text-align: center; 
+            padding: 10px 0; 
         }
-
-        nav a {
+        
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            padding: 10px 20px; 
+            display: inline-block; 
+        }
+        
+        nav a:hover { 
+            background-color: #0056b3; 
             color: white;
             text-decoration: none;
             padding: 10px 20px;
             display: inline-block;
         }
 
-        nav a:hover {
-            background-color: #0056b3;
-        }
 
         section {
             padding: 40px;
@@ -82,8 +87,8 @@
         a {
             text-decoration: none;
         }
-        a:visited
-        {
+
+        a:visited {
             color: blue;
         }
 
